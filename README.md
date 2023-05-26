@@ -8,8 +8,9 @@
 Вариант установки: Ручная установка.
 Скопировать содержимое репозитория в директорию `local/activities/custom/dicecondition`
 
-Вариант установки: Автоматическая установка для Bitrix Env
+Вариант установки: Автоматическая установка для Bitrix Env.
+Необходимо быть авторизованным под пользователем bitrix
 
-```
-$ git clone https://github.com/gromdron/bitrix-activity-dicecondition.git /home/bitrix/www/local/activities/custom/diceactivity
+```bash
+$ mkdir -p local/activities/custom/dicecondition && git clone https://github.com/gromdron/bitrix-activity-dicecondition.git ./local/activities/custom/dicecondition
 ```
